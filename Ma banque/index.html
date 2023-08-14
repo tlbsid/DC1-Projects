@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ma Banque</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/da49742a3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<meta name="description" content="Mon espace personnel">
+</head>
+<body>
+	<div class="Logodebanque">
+		<img class="img" src="LogoHSBC.png" alt="Logo HSBC">
+	</div>
+	<div class="Nomdebanque">
+		<h3>MA BANQUE</h3>
+	</div>
+
+	<div id="recapitulatif">
+		<div class="montant">50 360€</div>
+		<div class="Numerodecomtpe">
+			<p>COMPTE N°84726104826 MR LAGIER</p>
+			<p class="NB">HSBC Continental Europe</p>
+		</div>
+	</div>
+
+<div id="wrapper">
+		
+		<div class="mabanque">
+			
+			<div class="addItemBox">
+				<h1>Libellé - Montant</h1>
+				<div>
+					<input type="text" name="itemInput" id="itemInput" value="">
+					
+							<input type="radio"name="valeur" id="revenus" value="revenus">
+							<label for="revenus">Revenus
+							</label>
+							<input type="radio" name="valeur" id="depenses" value="depenses">
+							<label for="depenses">Dépenses
+							</label>
+		
+					<div class="btn">	
+						<button id='addItem'>Ok</button> 
+					</div>	
+
+				</div>
+
+				<p>Mes Dépenses</p>
+				<ul id='depenseListe'>
+				</ul>
+
+				<p>Mes Revenus</p>
+				<ul id="theList">
+				</ul>
+
+			</div>
+
+
+
+
+			<div class="listItem">
+			
+				
+			<div class="addItemBox2">
+					<div class="btn2">	
+						<button name="valeur">Solde Total<span id ="solde"> 0 </span> € </button> 
+					</div>	
+				<ul id='depenseListe'>
+				</ul>
+					<div class="btn3">	
+						<button id='itemprice'>Dépense la plus chère</button> 
+					</div>	
+			</div>
+			</div>  	
+
+		</div>
+
+	</div>
+
+
+	<script src="js/app.js"></script>
+
+</body>
+</html>

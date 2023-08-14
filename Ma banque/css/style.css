@@ -1,0 +1,209 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	font-size: 1rem;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3{
+	font-family: "Montserrat",sans-serif;
+}
+
+p,li, a, label, input, button{
+	font-family: "Lato",sans-serif;
+}
+
+#wrapper{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.mabanque{
+	border-radius: 10px;
+	max-width: 380px;
+	width: 80%;
+	padding: 25px 0px;
+	padding-bottom: 0;
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0px 0px 4px 0px grey;
+}
+
+.depenseListe{
+	padding-bottom: 25px;
+	border-bottom: 3px solid tomato;
+}
+
+.addItemBox > *{
+	display: block;
+	text-align: center;
+}
+
+.addItemBox input, .addItemBox button{
+	border-color: #CFCFCF;
+	border-style: solid;
+	border-radius: 5px;
+	transition: all 0.1s ease-in;
+	padding: 5px 15px;
+}
+
+
+.addItemBox input:focus{
+	outline-color: tomato
+}
+
+.btn {
+	padding: 1rem;
+	text-align: center;
+}
+
+.btn2 {
+	padding: 1rem;
+	text-align: center;
+}
+
+.btn3 {
+	padding: 1rem;
+	text-align: center;
+}
+
+.addItemBox button{
+	appearance: none;
+	background-color: #fff;
+	color: #000;
+
+}
+
+.addItemBox button:active{
+	background-color: tomato;
+	color: #fff;
+	border-color: tomato;
+	outline-color: tomato;
+}
+
+.addItemBox button:focus{
+	outline-color: tomato;
+}
+
+.listItem p{
+	padding: 15px 5px;
+	margin: 0;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	word-wrap: break-word;
+	width: 100%;
+	padding: 20px 25px;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+
+.listItem i{
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	color: tomato;
+	cursor: pointer;
+}
+
+.listItem input[type="checkbox"]{
+	margin-right: 15px;
+}
+
+
+#soldtotal li label{
+	text-decoration: line-through;
+}
+
+.addItemBox2 button{
+	appearance: none;
+	background-color: #fff;
+	color: #000;
+
+}
+
+.addItemBox2 button:active{
+	background-color: tomato;
+	color: #fff;
+	border-color: tomato;
+	outline-color: tomato;
+}
+
+.addItemBox2 button:focus{
+	outline-color: tomato;
+}
+
+.addItemBox2 input, .addItemBox2 button{
+	border-color: #CFCFCF;
+	border-style: solid;
+	border-radius: 5px;
+	transition: all 0.1s ease-in;
+	padding: 5px 15px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	background-color: ghostwhite;
+	font-size: 1rem;
+}
+
+h1,h2,h3, p{
+	font-family: "Montserrat", sans-serif;
+}
+
+.Nomdebanque{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.montant{
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+}
+
+.img{
+	width: 150px;
+	height: 150px;
+}
+
+.Logodebanque{
+	border-radius: 1rem;
+	background-color: white;
+	background-size: 0.2rem;
+	margin: auto;
+}
+
+.Logodebanque{
+	text-align: center;
+}
+
+.NB{
+ color: grey;
+}
+
+.recapitulatif{
+	padding-left: auto;
+	padding-right: auto;
+}	
+
+
+
